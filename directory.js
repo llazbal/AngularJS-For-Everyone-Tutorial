@@ -1,6 +1,5 @@
 angular.module('directoryApp', [])
     .controller('directoryController', function(){
-
         var dirList = this;
 
         dirList.list = [
