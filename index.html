@@ -31,23 +31,23 @@
                 fill: blue !important;
             }
 
-            ul.ng-enter {
+            li.ng-enter {
                 transition:0.3s ease all;
                 opacity:0;
-                transform:translateX(-100%);
+                transform:translateY(10px);
             }
-            ul.ng-enter.ng-enter-active {
+            li.ng-enter.ng-enter-active {
                 opacity:1;
-                transform:translateX(0);
+                transform:translateY(0);
             }
 
-            ul.ng-leave {
+            li.ng-leave {
                 transition:0.3s ease all;
                 opacity:1;
-                transform:translateX(0);
+                transform:translateY(0);
             }
-            ul.ng-leave.ng-leave-active {
-                transform:translateX(100%);
+            li.ng-leave.ng-leave-active {
+                transform:translateY(10px);
                 opacity:0;
             }
         </style>
