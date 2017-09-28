@@ -46,9 +46,10 @@
             }
         </style>
     </head>
-    <body ng-controller="directoryController as dirList">
-
-        <input type="text" ng-model="search">
+    <!-- <body ng-controller="directoryController as dirList"> -->
+        <body>
+        <main ui-view></main>
+        <!-- <input type="text" ng-model="search">
         <ul ng-if="dirList.toggle">
             <li ng-repeat="item in dirList.list | filter:search" 
                 ng-class="item.age > 29 ? 'over-thirty' : 'under-thirty'"
@@ -61,6 +62,6 @@
                 <input type="text" placeholder="Name" ng-model="dirList.name">
                 <input type="text" placeholder="Age" ng-model="dirList.age">
                 <input type="Submit" value="Submit">
-        </form>
+        </form> -->
     </body>
 </html>
