@@ -1,0 +1,17 @@
+{
+  "name": "AngularJS For Everyone Tutorial",
+  "homepage": "https://github.com/llazbal/AngularJS-For-Everyone-Tutorial",
+  "authors": [
+    "Leonardo Lazbal <llazbal@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
